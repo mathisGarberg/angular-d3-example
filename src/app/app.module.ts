@@ -9,6 +9,7 @@ import { D3Service } from './d3/d3.service';
 import { GraphComponent } from './visuals/graph/graph.component';
 import { NodeVisualComponent } from './visuals/shared/node-visual/node-visual.component';
 import { LinkVisualComponent } from './visuals/shared/link-visual/link-visual.component';
+import { ZoomableDirective } from './d3/directives/zoomable.directive';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { LinkVisualComponent } from './visuals/shared/link-visual/link-visual.co
     GraphComponent,
     NodeVisualComponent,
     LinkVisualComponent,
+    ZoomableDirective,
   ],
   imports: [
     BrowserModule,
